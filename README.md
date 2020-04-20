@@ -11,8 +11,8 @@ demonstrating a representative example of its use.
 - For more awesome lists, see [awesome](https://github.com/sindresorhus/awesome).
 
 ## Contents
-- [Computer networking](#computer networking)
-- [Computer software](#computer software)
+- [Computer networking](#computer-networking)
+- [Computer software](#computer-software)
 - [Entertainment](#entertainment)
 - [General](#general)
 - [Transport](#transport)
