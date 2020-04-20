@@ -1,8 +1,8 @@
 # Awesome REST APIs [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-Currated collaborative list of open
+Currated collaborative list of **open** (freely available without registration)
 [REST](https://en.wikipedia.org/wiki/Representational_state_transfer)ful
 API web services.
-We list each service with a short description, followed by link
+We list each service with a short description, followed by a link
 demonstrating a representative example of its use.
 You can use the link on your web browser, through the Unix command line
 with the [curl](https://curl.haxx.se/) utility,
