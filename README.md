@@ -27,8 +27,8 @@ demonstrating a representative example of its use.
 * [MusicBrainz](https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2) - Recorded music database; [example](https://musicbrainz.org/ws/2/release/93c4f215-15ae-34a2-981a-9a5fbd700004?inc=aliases+artist-credits+labels+discids+recordings&fmt=json)
 
 ## General
-* [DOI resolution](https://www.doi.org/factsheets/DOIProxy.html#rest-api) - Resolve Digital Object Identifiers to their target URL; [example](https://doi.org/api/handles/10.1109/TSE.2019.2892149).
 * [DOI metadata](https://github.com/CrossRef/rest-api-doc) - Search and obtain metadata associated with Digital Object Identifiers; [example](https://api.crossref.org/works/10.1109/TSE.2019.2892149).
+* [DOI resolution](https://www.doi.org/factsheets/DOIProxy.html#rest-api) - Resolve Digital Object Identifiers to their target URL; [example](https://doi.org/api/handles/10.1109/TSE.2019.2892149).
 * [Wikidata](https://www.wikidata.org/wiki/Wikidata:Data_access) - Collaboratively edited knowledge base hosted by the Wikimedia Foundation; [example](https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&ids=Q111).
 
 ## Transport
