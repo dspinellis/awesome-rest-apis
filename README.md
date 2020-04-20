@@ -32,7 +32,7 @@ demonstrating a representative example of its use.
 * [Wikidata](https://www.wikidata.org/wiki/Wikidata:Data_access) - Collaboratively edited knowledge base hosted by the Wikimedia Foundation; [example](https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&ids=Q111).
 
 ## Transport
-* [OpenMobilityData]](https://transitfeeds.com/feeds) - List of General Transit Feed Specification (GTFS) providers.
+* [OpenMobilityData](https://transitfeeds.com/feeds) - List of [General Transit Feed Specification](https://en.wikipedia.org/wiki/General_Transit_Feed_Specification) (GTFS) providers.
 
 
 ## License
