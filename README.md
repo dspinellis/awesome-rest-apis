@@ -4,6 +4,10 @@ Currated collaborative list of open
 API web services.
 We list each service with a short description, followed by link
 demonstrating a representative example of its use.
+You can use the link on your web browser, through the Unix command line
+with the [curl](https://curl.haxx.se/) utility,
+or with any modern programming language, for example with Python's
+[Requests](https://requests.readthedocs.io/en/master/).
 
 - This list requires your input for its continuous improvement.
   Read the [contribution guide](contributing.md) for instructions on how
