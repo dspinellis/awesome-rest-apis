@@ -17,6 +17,8 @@ or with any modern programming language, for example with Python's
 ## Contents
 - [Computer networking](#computer-networking)
 - [Computer software](#computer-software)
+- [Bioinformatics](#bioinformatics)
+- [Medicine](#medicine)
 - [Entertainment](#entertainment)
 - [General](#general)
 - [Transport](#transport)
@@ -32,7 +34,7 @@ or with any modern programming language, for example with Python's
 - [MyVariant.info](https://myvariant.info/v1/api) - Access genetic variation information for approximately 1 billion DNA loci. Read more [here](https://docs.myvariant.info/en/latest/doc/data.html).
 
 ## Medicine 
-- [Europe PMC](https://europepmc.org/RestfulWebService). Access to over 33 million publications from various sources, including PubMed, Agricola, the European Patents Office (EPO) and the National Institute for Clinical Excellence (NICE).
+- [Europe PMC](https://europepmc.org/RestfulWebService) - Access to over 33 million publications from various sources, including PubMed, Agricola, the European Patents Office (EPO) and the National Institute for Clinical Excellence (NICE).
 
 ## Entertainment
 - [MusicBrainz](https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2) - Recorded music database; [example](https://musicbrainz.org/ws/2/release/93c4f215-15ae-34a2-981a-9a5fbd700004?inc=aliases+artist-credits+labels+discids+recordings&fmt=json)
