@@ -21,6 +21,7 @@ or with any modern programming language, for example with Python's
 - [Entertainment](#entertainment)
 - [General](#general)
 - [Medicine](#medicine)
+- [Software Development](#software-development)
 - [Transport](#transport)
 
 ## Bioinformatics 
@@ -47,13 +48,13 @@ or with any modern programming language, for example with Python's
 ## Medicine
 - [Europe PMC](https://europepmc.org/RestfulWebService) - Access to over 33 million publications from various sources, including PubMed, Agricola, the European Patents Office (EPO) and the National Institute for Clinical Excellence (NICE);  [example](https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=malaria&format=json)
 
-## Transport
-- [OpenMobilityData](https://transitfeeds.com/feeds) - List of [General Transit Feed Specification](https://en.wikipedia.org/wiki/General_Transit_Feed_Specification) (GTFS) providers.
-
 ## Software Development
 - [JSONPlaceholder](https://jsonplaceholder.typicode.com/) - Fake Online REST API for Testing and Prototyping; [Example: 100 Fake Posts](https://jsonplaceholder.typicode.com/posts)
 - [Lorem Picsum](https://picsum.photos/) - Easy to use, image placeholders; [Example](https://i.picsum.photos/id/107/400/300.jpg)
 - [Placeholder](https://placeholder.com/) - Free image placeholder service for web designers, serving billions of images each year. [Example](https://via.placeholder.com/300.png/09f/fff)
+
+## Transport
+- [OpenMobilityData](https://transitfeeds.com/feeds) - List of [General Transit Feed Specification](https://en.wikipedia.org/wiki/General_Transit_Feed_Specification) (GTFS) providers.
 
 
 ## License
