@@ -26,7 +26,7 @@ or with any modern programming language, for example with Python's
 
 ## Computer software
 - [GitHub](https://developer.github.com/v3/) - Metadata on public repositories hosted on GitHub; [example](https://api.github.com/repos/dspinellis/awesome-rest-apis).
-- [Docker Hub](https://hub.docker.com/v2/) - Metadata on public container image registries hosted on Docker Hub; [example](https://hub.docker.com/v2/repositories/library/fedora/).
+- [Docker Hub](https://docs.docker.com/registry/spec/api/) - Metadata on public container image registries hosted on Docker Hub; [example](https://hub.docker.com/v2/repositories/library/fedora/).
 
 
 ## Entertainment
