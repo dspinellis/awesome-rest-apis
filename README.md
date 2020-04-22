@@ -29,8 +29,8 @@ or with any modern programming language, for example with Python's
 - [MyVariant.info](https://myvariant.info/v1/api) - Access genetic variation information for approximately 1 billion DNA loci. Read more [here](https://docs.myvariant.info/en/latest/doc/data.html); [example](http://myvariant.info/v1/query?q=chr3:8762685-8762685)
 
 ## Computer networking
-- [IP client discovery](https://www.myip.com/api-docs/) - Report the client's IP address; [example](https://api.myip.com).
 - [BGP queries](https://bgpstuff.net/) - The internet viewed from the Border Gateway Protocol lens; [example](https://bgpstuff.net/sourced?as=6799&format=json).
+- [Network client information](https://www.myip.com/api-docs/) - Report the client's IP address and country; [example](https://api.myip.com).
 
 ## Computer software
 - [GitHub](https://developer.github.com/v3/) - Metadata on public repositories hosted on GitHub; [example](https://api.github.com/repos/dspinellis/awesome-rest-apis).
