@@ -54,6 +54,7 @@ or with any modern programming language, for example with Python's
 - [JSONPlaceholder](https://jsonplaceholder.typicode.com/) - Fake Online REST API for Testing and Prototyping; [Example: 100 Fake Posts](https://jsonplaceholder.typicode.com/posts)
 - [Lorem Picsum](https://picsum.photos/) - Easy to use, image placeholders; [Example](https://i.picsum.photos/id/107/400/300.jpg)
 - [Placeholder](https://placeholder.com/) - Free image placeholder service for web designers, serving billions of images each year. [Example](https://via.placeholder.com/300.png/09f/fff)
+- [Zuplo](https://zuplo.com): OpenAPI-Powered API & MCP Management platform for Security, Deployment, and Documentation. Add auth, rate-limiting, and monetization to your API or MCP Server in minutes. [Example](https://rickandmorty.zuplo.io/docs/routes#overview)
 
 ## Transport
 - [OpenMobilityData](https://transitfeeds.com/feeds) - List of [General Transit Feed Specification](https://en.wikipedia.org/wiki/General_Transit_Feed_Specification) (GTFS) providers.
