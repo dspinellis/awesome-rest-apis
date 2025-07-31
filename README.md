@@ -24,7 +24,7 @@ or with any modern programming language, for example with Python's
 - [Software Development](#software-development)
 - [Transport](#transport)
 
-## Bioinformatics 
+## Bioinformatics
 - [Ensembl](https://rest.ensembl.org/) - Access genomic data for Homo Sapiens and other organisms. Mutations, DNA sequences, Transcripts and Proteins. Useful also to locate known genotype-phenotype associations; [example](https://rest.ensembl.org/vep/human/hgvs/AGT:c.803T%3EC?content-type=application/json)
 - [MyVariant.info](https://myvariant.info/v1/api) - Access genetic variation information for approximately 1 billion DNA loci. Read more [here](https://docs.myvariant.info/en/latest/doc/data.html); [example](http://myvariant.info/v1/query?q=chr3:8762685-8762685)
 
@@ -52,8 +52,8 @@ or with any modern programming language, for example with Python's
 ## Software Development
 - [Beeceptor OpenAPI Mock Server](https://beeceptor.com/openapi-mock-server/?utm_source=awesome-rest-apis) - Upload your OpenAPI spec and get instant, AI-powered test data and demo-ready API endpoints. Beeceptor is free, fast, and no login is needed.; [Example](https://app.beeceptor.com/mock-server/github-api)
 - [JSONPlaceholder](https://jsonplaceholder.typicode.com/) - Fake Online REST API for Testing and Prototyping; [Example: 100 Fake Posts](https://jsonplaceholder.typicode.com/posts)
-- [Lorem Picsum](https://picsum.photos/) - Easy to use, image placeholders; [Example](https://i.picsum.photos/id/107/400/300.jpg)
-- [Placeholder](https://placeholder.com/) - Free image placeholder service for web designers, serving billions of images each year. [Example](https://via.placeholder.com/300.png/09f/fff)
+- [Lorem Picsum](https://picsum.photos/) - Easy to use, image placeholders; [Example](https://picsum.photos/id/237/200/300)
+- [Placehold](https://placehold.co/) - Free image placeholder service for web designers, serving billions of images each year. [Example](https://placehold.co/600x400/png)
 - [Zuplo](https://zuplo.com): OpenAPI-Powered API & MCP Management platform for Security, Deployment, and Documentation. Add auth, rate-limiting, and monetization to your API or MCP Server in minutes. [Example](https://rickandmorty.zuplo.io/docs/routes#overview)
 
 ## Transport
