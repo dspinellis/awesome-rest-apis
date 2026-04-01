@@ -55,6 +55,7 @@ or with any modern programming language, for example with Python's
 - [JSONPlaceholder](https://jsonplaceholder.typicode.com/) - Fake Online REST API for Testing and Prototyping; [Example: 100 Fake Posts](https://jsonplaceholder.typicode.com/posts)
 - [Lorem Picsum](https://picsum.photos/) - Easy to use, image placeholders; [Example](https://picsum.photos/id/237/200/300)
 - [Placehold](https://placehold.co/) - Free image placeholder service for web designers, serving billions of images each year. [Example](https://placehold.co/600x400/png)
+- [ToolPipe](https://toolpipe.dev) - Free developer utility APIs with 70+ endpoints for QR codes, JSON formatting, text analysis, PDF processing, UUID generation, and more. No registration required; [example](https://toolpipe.dev/api/uuid)
 - [Zuplo](https://zuplo.com): OpenAPI-Powered API & MCP Management platform for Security, Deployment, and Documentation. Add auth, rate-limiting, and monetization to your API or MCP Server in minutes. [Example](https://rickandmorty.zuplo.io/docs/routes#overview)
 
 ## Transport
