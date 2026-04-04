@@ -66,3 +66,5 @@ or with any modern programming language, for example with Python's
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 To the extent possible under law, [Diomidis Spinellis](http://www.spinellis.gr) has waived all copyright and related or neighboring rights to this work.
+
+- [ToolPipe](https://toolpipe.dev) - 120+ free developer utility APIs including QR code generation, text analysis, JSON/XML/YAML conversion, DNS lookup, SSL checking, code review, and more. No signup required.
