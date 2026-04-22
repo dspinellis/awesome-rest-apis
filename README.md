@@ -41,6 +41,7 @@ or with any modern programming language, for example with Python's
 - [Vedika](https://vedika.io) - AI-powered Vedic astrology API with 108+ endpoints for birth charts, horoscopes, kundali matching, and natural language astrology queries; [Example](https://api.vedika.io/sandbox/info)
 
 ## General
+- [Crime Brasil](https://crimebrasil.com.br) - Open REST API for Brazilian crime statistics (~3M geocoded incidents from state police sources, PRF DATATRAN, and DATASUS); [example](https://crimebrasil.com.br/api/data-sources). No auth, HTTPS, CORS, CC BY 4.0.
 - [DOI metadata](https://github.com/CrossRef/rest-api-doc) - Search and obtain metadata associated with Digital Object Identifiers; [example](https://api.crossref.org/works/10.1109/TSE.2019.2892149).
 - [DOI resolution](https://www.doi.org/factsheets/DOIProxy.html#rest-api) - Resolve Digital Object Identifiers to their target URL; [example](https://doi.org/api/handles/10.1109/TSE.2019.2892149).
 - [Public APIs](https://github.com/public-apis/public-apis/blob/master/README.md) - List of public APIs; many require registration.
