@@ -47,6 +47,7 @@ or with any modern programming language, for example with Python's
 - [DOI resolution](https://www.doi.org/factsheets/DOIProxy.html#rest-api) - Resolve Digital Object Identifiers to their target URL; [example](https://doi.org/api/handles/10.1109/TSE.2019.2892149).
 - [Postali](https://postali.app/api) - Free REST API for postal codes (códigos postales) covering Mexico, Colombia, and Spain (~200k entries from SEPOMEX and GeoNames); [example](https://postali.app/api/v1/mx/cp/06700). No auth, HTTPS, CORS.
 - [Public APIs](https://github.com/public-apis/public-apis/blob/master/README.md) - List of public APIs; many require registration.
+- [Warnely](https://warnely.com/developers) - Open REST API for composite travel-safety scores covering 180 countries; combines UK FCDO and US State Department advisories, the Global Peace Index, World Bank Worldwide Governance Indicators, and a live news incident wire; [example](https://warnely.com/api/v1/countries/TH). No auth, HTTPS, CORS, CC BY 4.0, OpenAPI 3.1 spec.
 - [Wikidata](https://www.wikidata.org/wiki/Wikidata:Data_access) - Collaboratively edited knowledge base hosted by the Wikimedia Foundation; [example](https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&ids=Q111).
 
 
