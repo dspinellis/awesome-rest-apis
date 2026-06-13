@@ -22,6 +22,7 @@ or with any modern programming language, for example with Python's
 - [General](#general)
 - [Medicine](#medicine)
 - [Software Development](#software-development)
+- [Sports](#sports)
 - [Transport](#transport)
 
 ## Bioinformatics
@@ -58,6 +59,9 @@ or with any modern programming language, for example with Python's
 - [Lorem Picsum](https://picsum.photos/) - Easy to use, image placeholders; [Example](https://picsum.photos/id/237/200/300)
 - [Placehold](https://placehold.co/) - Free image placeholder service for web designers, serving billions of images each year. [Example](https://placehold.co/600x400/png)
 - [Zuplo](https://zuplo.com): OpenAPI-Powered API & MCP Management platform for Security, Deployment, and Documentation. Add auth, rate-limiting, and monetization to your API or MCP Server in minutes. [Example](https://rickandmorty.zuplo.io/docs/routes#overview)
+
+## Sports
+- [World Cup 2026 Tour](https://ay-worldcup2026.zeabur.app/developers) - 2026 World Cup fixtures, local kickoff times, and match share links; [example](https://ay-worldcup2026.zeabur.app/api/public/v1/matches?timezone=UTC).
 
 ## Transport
 - [OpenMobilityData](https://transitfeeds.com/feeds) - List of [General Transit Feed Specification](https://en.wikipedia.org/wiki/General_Transit_Feed_Specification) (GTFS) providers.
