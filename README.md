@@ -44,6 +44,7 @@ or with any modern programming language, for example with Python's
 ## General
 - [Crime Brasil](https://crimebrasil.com.br) - Open REST API for Brazilian crime statistics (~3M geocoded incidents from state police sources, PRF DATATRAN, and DATASUS); [example](https://crimebrasil.com.br/api/data-sources). No auth, HTTPS, CORS, CC BY 4.0.
 - [DOI metadata](https://github.com/CrossRef/rest-api-doc) - Search and obtain metadata associated with Digital Object Identifiers; [example](https://api.crossref.org/works/10.1109/TSE.2019.2892149).
+- [FilingFirehose](https://filingfirehose.com/openapi.json) - Open REST API for recent SEC 8-K, S-3, and Schedule 13D filings on any US-listed company, including 8-K body-text parsing that catches buried items beyond what the filer reported; [example](https://filingfirehose.com/v1/public/8k?ticker=AAPL&limit=5). No auth, HTTPS, JSON.
 - [MobileAPI](https://mobileapi.dev/docs/) - Device specifications, images, and pricing for 27,000+ smartphones, tablets, and wearables; [example](https://mobileapi.dev/demo/search/?name=iphone+16).
 - [DOI resolution](https://www.doi.org/factsheets/DOIProxy.html#rest-api) - Resolve Digital Object Identifiers to their target URL; [example](https://doi.org/api/handles/10.1109/TSE.2019.2892149).
 - [Postali](https://postali.app/api) - Free REST API for postal codes (códigos postales) covering Mexico, Colombia, and Spain (~200k entries from SEPOMEX and GeoNames); [example](https://postali.app/api/v1/mx/cp/06700). No auth, HTTPS, CORS.
