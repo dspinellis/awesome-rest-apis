@@ -28,6 +28,7 @@ or with any modern programming language, for example with Python's
 ## Bioinformatics
 - [Ensembl](https://rest.ensembl.org/) - Access genomic data for Homo Sapiens and other organisms. Mutations, DNA sequences, Transcripts and Proteins. Useful also to locate known genotype-phenotype associations; [example](https://rest.ensembl.org/vep/human/hgvs/AGT:c.803T%3EC?content-type=application/json)
 - [MyVariant.info](https://myvariant.info/v1/api) - Access genetic variation information for approximately 1 billion DNA loci. Read more [here](https://docs.myvariant.info/en/latest/doc/data.html); [example](http://myvariant.info/v1/query?q=chr3:8762685-8762685)
+- [SeqBench](https://seqbench.com/mcp) - Molecular/synthetic biology toolkit covering primer design, cloning simulation, CRISPR guide design, sequence analysis, batch processing, and multi-step workflows; [example](https://seqbench.com/api/v1)
 
 ## Computer networking
 - [BGP queries](https://bgpstuff.net/) - The internet viewed from the Border Gateway Protocol lens; [example](https://bgpstuff.net/sourced?as=6799&format=json).
