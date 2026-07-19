@@ -19,6 +19,7 @@ or with any modern programming language, for example with Python's
 - [Computer networking](#computer-networking)
 - [Computer software](#computer-software)
 - [Entertainment](#entertainment)
+- [Finance & Crypto](#finance--crypto)
 - [General](#general)
 - [Medicine](#medicine)
 - [Software Development](#software-development)
@@ -40,6 +41,10 @@ or with any modern programming language, for example with Python's
 ## Entertainment
 - [MusicBrainz](https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2) - Recorded music database; [example](https://musicbrainz.org/ws/2/release/93c4f215-15ae-34a2-981a-9a5fbd700004?inc=aliases+artist-credits+labels+discids+recordings&fmt=json)
 - [Vedika](https://vedika.io) - AI-powered Vedic astrology API with 108+ endpoints for birth charts, horoscopes, kundali matching, and natural language astrology queries; [Example](https://api.vedika.io/sandbox/info)
+
+
+## Finance & Crypto
+- [AgentServices](https://github.com/vbkotecha/aiservices-api) - x402-paid REST API platform with 97 endpoints across 54 services covering crypto prices, on-chain data, DeFi metrics, forex rates, and market intelligence; [example](https://api.agentservices.to/v1/fx?from=BTC&to=USD). Micropayments via HTTP 402, MCP server with 37 tools.
 
 ## General
 - [Crime Brasil](https://crimebrasil.com.br) - Open REST API for Brazilian crime statistics (~3M geocoded incidents from state police sources, PRF DATATRAN, and DATASUS); [example](https://crimebrasil.com.br/api/data-sources). No auth, HTTPS, CORS, CC BY 4.0.
