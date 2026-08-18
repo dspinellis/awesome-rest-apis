@@ -1,0 +1,105 @@
+#!/usr/bin/env python3
+"""Check that every marked README entry has a sufficiently large JSON example."""
+
+import json
+import re
+import subprocess
+import sys
+from pathlib import Path
+
+
+EXAMPLE_LINK = re.compile(
+    r"\[[^]]*[Ee]xample[^]]*\]\((https?://[^\s)]+)\)"
+)
+
+
+def entries(text: str) -> list[tuple[int, str]]:
+    lines = text.splitlines()
+    try:
+        begin = lines.index("<!--ENTRIES-BEGIN-->")
+        end = lines.index("<!--ENTRIES-END-->", begin + 1)
+    except ValueError:
+        raise ValueError("missing or out-of-order ENTRIES markers") from None
+    return [
+        (number, line)
+        for number, line in enumerate(lines, 1)
+        if begin < number - 1 < end and line.startswith("- ")
+    ]
+
+
+def fetch(url: str) -> subprocess.CompletedProcess[str]:
+    return subprocess.run(
+        [
+            "curl",
+            "--location",
+            "--silent",
+            "--show-error",
+            "--fail",
+            "--connect-timeout",
+            "10",
+            "--max-time",
+            "30",
+            "--user-agent",
+            "awesome-rest-apis-example-check/1.0",
+            url,
+        ],
+        check=False,
+        text=True,
+        capture_output=True,
+    )
+
+
+def main() -> int:
+    readme = Path(sys.argv[1]) if len(sys.argv) == 2 else Path("README.md")
+    if len(sys.argv) > 2:
+        print(f"usage: {sys.argv[0]} [README]", file=sys.stderr)
+        return 2
+
+    try:
+        marked_entries = entries(readme.read_text())
+    except (OSError, ValueError) as error:
+        print(f"{readme}: {error}", file=sys.stderr)
+        return 2
+
+    failures = 0
+    for line_number, entry in marked_entries:
+        match = EXAMPLE_LINK.search(entry)
+        if not match:
+            failures += 1
+            print(f"FAIL {readme}:{line_number}: no Example hyperlink", file=sys.stderr)
+            continue
+
+        url = match.group(1)
+        response = fetch(url)
+        if response.returncode:
+            failures += 1
+            print(
+                f"FAIL {readme}:{line_number}: {url}: {response.stderr.strip()}",
+                file=sys.stderr,
+            )
+            continue
+        try:
+            data = json.loads(response.stdout)
+        except json.JSONDecodeError as error:
+            failures += 1
+            print(
+                f"FAIL {readme}:{line_number}: {url}: invalid JSON: {error}",
+                file=sys.stderr,
+            )
+            continue
+        if not isinstance(data, (list, dict)) or len(data) < 3:
+            failures += 1
+            size = len(data) if isinstance(data, (list, dict)) else "not a collection"
+            print(
+                f"FAIL {readme}:{line_number}: {url}: JSON has {size} elements (need 3)",
+                file=sys.stderr,
+            )
+            continue
+        print(f"OK   {readme}:{line_number}: {url} ({len(data)} elements)")
+
+    print(f"Checked {len(marked_entries)} entries; {failures} failed.")
+    return int(failures != 0)
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
