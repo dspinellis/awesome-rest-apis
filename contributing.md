@@ -7,6 +7,7 @@ By participating in this project you agree to abide by its terms.
 ## Table of Contents
 
 - [Contributing to this list](#contributing-to-this-list)
+- [Validating your changes](#validating-your-changes)
 - [Adding something to an awesome list](#adding-something-to-an-awesome-list)
 - [Updating your Pull Request](#updating-your-pull-request)
 
@@ -36,8 +37,9 @@ Please ensure your pull request adheres to the following guidelines.
 - Use the following format for web services:
   `[Web service name](documentation link) - Description; [example](link)`.
 - The example should yield results in JSON,
-  which are easily readable in modern browsers
-  and automatically verifiable.
+  which are easily readable in modern browsers and automatically verifiable.
+  The JSON must contain an object or array with at least three elements.
+- All documentation and other non-example links must return HTTP status 200.
 - Use the following format for lists of related (e.g. geolocation) web services:
   `[List name](link) - Description`.
 - Do not add lists of unrelated web services.
@@ -50,6 +52,27 @@ Please ensure your pull request adheres to the following guidelines.
 - The pull request and commit should have a useful title.
 
 Thank you for your contributions!
+
+## Validating your changes
+
+Before submitting a pull request, run both automated checks from the repository
+root:
+
+```sh
+tools/check-urls
+tools/check-examples
+```
+
+The URL check examines all HTTP and HTTPS links in `README.md` except links
+labelled "example". The example check examines every list entry between the
+`ENTRIES-BEGIN` and `ENTRIES-END` markers. Each such entry must contain an
+"example" hyperlink whose response is valid JSON with a collection containing
+at least three elements.
+
+GitHub Actions runs both checks for every pull request. A pull request cannot be
+merged when the repository's `validate` check is required and either command
+fails. Because these checks contact third-party services, retry a failed check
+before changing an entry if the failure appears temporary.
 
 ## Adding something to an awesome list
 
