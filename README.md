@@ -30,7 +30,7 @@ or with any modern programming language, for example with Python's
 <!--ENTRIES-BEGIN-->
 
 ## Bioinformatics
-- [Ensembl](https://rest.ensembl.org/) - Access genomic data for Homo Sapiens and other organisms. Mutations, DNA sequences, Transcripts and Proteins. Useful also to locate known genotype-phenotype associations; [example](https://rest.ensembl.org/vep/human/hgvs/AGT:c.803T%3EC?content-type=application/json)
+- [Ensembl](https://rest.ensembl.org/) - Access genomic data for Homo Sapiens and other organisms. Mutations, DNA sequences, Transcripts and Proteins. Useful also to locate known genotype-phenotype associations; [example](https://rest.ensembl.org/lookup/id/ENSG00000157764?content-type=application/json)
 - [MyVariant.info](https://myvariant.info/v1/api) - Access genetic variation information for approximately 1 billion DNA loci. Read more [here](https://docs.myvariant.info/en/latest/doc/data.html); [example](http://myvariant.info/v1/query?q=chr3:8762685-8762685)
 - [SeqBench](https://seqbench.com/mcp) - Molecular/synthetic biology toolkit covering primer design, cloning simulation, CRISPR guide design, sequence analysis, batch processing, and multi-step workflows; [example](https://seqbench.com/api/v1)
 
@@ -39,7 +39,7 @@ or with any modern programming language, for example with Python's
 - [FilingFirehose](https://filingfirehose.com/openapi.json) - Open REST API for recent SEC 8-K, S-3, and Schedule 13D filings on any US-listed company, including 8-K body-text parsing that catches buried items beyond what the filer reported; [example](https://filingfirehose.com/v1/public/8k?ticker=AAPL&limit=5). No auth, HTTPS, JSON.
 
 ## Computer networking
-- [BGP queries](https://bgpstuff.net/) - The internet viewed from the Border Gateway Protocol lens; [example](https://bgpstuff.net/sourced?as=6799&format=json).
+- [BGP queries](https://bgpstuff.net/) - The internet viewed from the Border Gateway Protocol lens; [example](https://bgpstuff.net/api/v3/route/8.8.8.8).
 - [Network client information](https://www.myip.com/api-docs/) - Report the client's IP address and country; [example](https://api.myip.com).
 
 ## Computer software
@@ -53,7 +53,6 @@ or with any modern programming language, for example with Python's
 ## General
 - [Crime Brasil](https://crimebrasil.com.br) - Open REST API for Brazilian crime statistics (~3M geocoded incidents from state police sources, PRF DATATRAN, and DATASUS); [example](https://crimebrasil.com.br/api/data-sources). No auth, HTTPS, CORS, CC BY 4.0.
 - [DOI metadata](https://github.com/CrossRef/rest-api-doc) - Search and obtain metadata associated with Digital Object Identifiers; [example](https://api.crossref.org/works/10.1109/TSE.2019.2892149).
-- [MobileAPI](https://mobileapi.dev/docs/) - Device specifications, images, and pricing for 27,000+ smartphones, tablets, and wearables; [example](https://mobileapi.dev/demo/search/?name=iphone+16).
 - [DOI resolution](https://www.doi.org/factsheets/DOIProxy.html#rest-api) - Resolve Digital Object Identifiers to their target URL; [example](https://doi.org/api/handles/10.1109/TSE.2019.2892149).
 - [Postali](https://postali.app/api) - Free REST API for postal codes (códigos postales) covering Mexico, Colombia, and Spain (~200k entries from SEPOMEX and GeoNames); [example](https://postali.app/api/v1/mx/cp/06700). No auth, HTTPS, CORS.
 - [Public APIs](https://github.com/public-apis/public-apis/blob/master/README.md) - List of public APIs; many require registration.
@@ -69,13 +68,11 @@ or with any modern programming language, for example with Python's
 - [JSONPlaceholder](https://jsonplaceholder.typicode.com/) - Fake Online REST API for Testing and Prototyping; [Example: 100 Fake Posts](https://jsonplaceholder.typicode.com/posts)
 - [Lorem Picsum](https://picsum.photos/) - Easy to use, image placeholders; [Example](https://picsum.photos/id/237/200/300)
 - [Placehold](https://placehold.co/) - Free image placeholder service for web designers, serving billions of images each year. [Example](https://placehold.co/600x400/png)
-- [Zuplo](https://zuplo.com): OpenAPI-Powered API & MCP Management platform for Security, Deployment, and Documentation. Add auth, rate-limiting, and monetization to your API or MCP Server in minutes. [Example](https://rickandmorty.zuplo.io/docs/routes#overview)
 
 ## Sports
 - [World Cup 2026 Tour](https://ay-worldcup2026.zeabur.app/developers) - 2026 World Cup fixtures, local kickoff times, and match share links; [example](https://ay-worldcup2026.zeabur.app/api/public/v1/matches?timezone=UTC).
 
 ## Transport
-- [OpenMobilityData](https://transitfeeds.com/feeds) - List of [General Transit Feed Specification](https://en.wikipedia.org/wiki/General_Transit_Feed_Specification) (GTFS) providers.
 
 <!--ENTRIES-END-->
 
