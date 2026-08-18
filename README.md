@@ -28,7 +28,8 @@ or with any modern programming language, for example with Python's
 - [Transport](#transport)
 
 ## Other API lists
-- [Global Transit Data](https://mobilitydatabase.org/) Serving over 6000 transportation data feeds from over 99 countries.
+- [Global Transit Data](https://mobilitydatabase.org/) serving over 6000 transportation data feeds from over 99 countries
+- [Public APIs](https://github.com/public-apis/public-apis) Public APIs — most require registration
 
 <!--ENTRIES-BEGIN-->
 
