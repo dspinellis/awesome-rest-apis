@@ -39,14 +39,29 @@ def fetch(url: str) -> subprocess.CompletedProcess[str]:
             "10",
             "--max-time",
             "30",
+            "--retry",
+            "2",
+            "--retry-delay",
+            "1",
+            "--retry-all-errors",
             "--user-agent",
             "awesome-rest-apis-example-check/1.0",
             url,
         ],
         check=False,
         text=True,
+        errors="replace",
         capture_output=True,
     )
+
+
+def collection_size(data: object) -> int:
+    """Return the size of the largest collection in a JSON value."""
+    if isinstance(data, dict):
+        return max([len(data), *(collection_size(value) for value in data.values())])
+    if isinstance(data, list):
+        return max([len(data), *(collection_size(value) for value in data)])
+    return 0
 
 
 def main() -> int:
@@ -87,15 +102,16 @@ def main() -> int:
                 file=sys.stderr,
             )
             continue
-        if not isinstance(data, (list, dict)) or len(data) < 3:
+        size = collection_size(data)
+        if size < 3:
             failures += 1
-            size = len(data) if isinstance(data, (list, dict)) else "not a collection"
             print(
-                f"FAIL {readme}:{line_number}: {url}: JSON has {size} elements (need 3)",
+                f"FAIL {readme}:{line_number}: {url}: "
+                f"largest JSON collection has {size} elements (need 3)",
                 file=sys.stderr,
             )
             continue
-        print(f"OK   {readme}:{line_number}: {url} ({len(data)} elements)")
+        print(f"OK   {readme}:{line_number}: {url} ({size} elements)")
 
     print(f"Checked {len(marked_entries)} entries; {failures} failed.")
     return int(failures != 0)
