@@ -35,8 +35,9 @@ Please ensure your pull request adheres to the following guidelines.
 - Make an individual pull request for each suggestion.
 - Use the following format for web services:
   `[Web service name](documentation link) - Description; [example](link)`.
-- Where possible, the example should yield results in JSON or plain text,
-  which are easily readable in modern browsers.
+- The example should yield results in JSON,
+  which are easily readable in modern browsers
+  and automatically verifiable.
 - Use the following format for lists of related (e.g. geolocation) web services:
   `[List name](link) - Description`.
 - Do not add lists of unrelated web services.

@@ -58,7 +58,6 @@ or with any modern programming language, for example with Python's
 - [DOI metadata](https://github.com/CrossRef/rest-api-doc) - Search and obtain metadata associated with Digital Object Identifiers; [example](https://api.crossref.org/works/10.1109/TSE.2019.2892149).
 - [DOI resolution](https://www.doi.org/factsheets/DOIProxy.html#rest-api) - Resolve Digital Object Identifiers to their target URL; [example](https://doi.org/api/handles/10.1109/TSE.2019.2892149).
 - [Postali](https://postali.app/api) - Free REST API for postal codes (códigos postales) covering Mexico, Colombia, and Spain (~200k entries from SEPOMEX and GeoNames); [example](https://postali.app/api/v1/mx/cp/06700). No auth, HTTPS, CORS.
-- [Public APIs](https://github.com/public-apis/public-apis/blob/master/README.md) - List of public APIs; many require registration.
 - [Warnely](https://warnely.com/developers) - Open REST API for composite travel-safety scores covering 180 countries; combines UK FCDO and US State Department advisories, the Global Peace Index, World Bank Worldwide Governance Indicators, and a live news incident wire; [example](https://warnely.com/api/v1/countries/TH). No auth, HTTPS, CORS, CC BY 4.0, OpenAPI 3.1 spec.
 - [Wikidata](https://www.wikidata.org/wiki/Wikidata:Data_access) - Collaboratively edited knowledge base hosted by the Wikimedia Foundation; [example](https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&ids=Q111).
 
@@ -67,10 +66,7 @@ or with any modern programming language, for example with Python's
 - [Europe PMC](https://europepmc.org/RestfulWebService) - Access to over 33 million publications from various sources, including PubMed, Agricola, the European Patents Office (EPO) and the National Institute for Clinical Excellence (NICE);  [example](https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=malaria&format=json)
 
 ## Software Development
-- [Beeceptor OpenAPI Mock Server](https://beeceptor.com/openapi-mock-server/?utm_source=awesome-rest-apis) - Upload your OpenAPI spec and get instant, AI-powered test data and demo-ready API endpoints. Beeceptor is free, fast, and no login is needed.; [Example](https://app.beeceptor.com/mock-server/github-api)
 - [JSONPlaceholder](https://jsonplaceholder.typicode.com/) - Fake Online REST API for Testing and Prototyping; [Example: 100 Fake Posts](https://jsonplaceholder.typicode.com/posts)
-- [Lorem Picsum](https://picsum.photos/) - Easy to use, image placeholders; [Example](https://picsum.photos/id/237/200/300)
-- [Placehold](https://placehold.co/) - Free image placeholder service for web designers, serving billions of images each year. [Example](https://placehold.co/600x400/png)
 
 ## Sports
 - [World Cup 2026 Tour](https://ay-worldcup2026.zeabur.app/developers) - 2026 World Cup fixtures, local kickoff times, and match share links; [example](https://ay-worldcup2026.zeabur.app/api/public/v1/matches?timezone=UTC).
