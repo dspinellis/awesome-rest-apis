@@ -1,5 +1,6 @@
 # Awesome REST APIs [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-Currated collaborative list of **open** (freely available without registration)
+Currated collaborative list of **open**
+(freely available without registration or payment)
 [REST](https://en.wikipedia.org/wiki/Representational_state_transfer)ful
 API web services.
 We list each service with a short description, followed by a link
