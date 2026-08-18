@@ -19,6 +19,7 @@ or with any modern programming language, for example with Python's
 - [Computer networking](#computer-networking)
 - [Computer software](#computer-software)
 - [Entertainment](#entertainment)
+- [Finance](#finance)
 - [General](#general)
 - [Medicine](#medicine)
 - [Software Development](#software-development)
@@ -40,6 +41,9 @@ or with any modern programming language, for example with Python's
 ## Entertainment
 - [MusicBrainz](https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2) - Recorded music database; [example](https://musicbrainz.org/ws/2/release/93c4f215-15ae-34a2-981a-9a5fbd700004?inc=aliases+artist-credits+labels+discids+recordings&fmt=json)
 - [Vedika](https://vedika.io) - AI-powered Vedic astrology API with 108+ endpoints for birth charts, horoscopes, kundali matching, and natural language astrology queries; [Example](https://api.vedika.io/sandbox/info)
+
+## Finance
+- [CoinPaprika](https://api.coinpaprika.com/) - Cryptocurrency market data for 12,000+ cryptocurrencies and 350+ exchanges, including current prices, volume, market cap, and global market statistics; [example](https://api.coinpaprika.com/v1/tickers/btc-bitcoin). No auth, HTTPS, CORS.
 
 ## General
 - [Crime Brasil](https://crimebrasil.com.br) - Open REST API for Brazilian crime statistics (~3M geocoded incidents from state police sources, PRF DATATRAN, and DATASUS); [example](https://crimebrasil.com.br/api/data-sources). No auth, HTTPS, CORS, CC BY 4.0.
