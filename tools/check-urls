@@ -1,14 +1,32 @@
 #!/usr/bin/env python3
 """Check that every non-example hyperlink in the README returns HTTP 200."""
 
+import os
 import re
 import subprocess
 import sys
 from pathlib import Path
+from urllib.parse import urlsplit
 
 
 LINK = re.compile(r"\[([^]]*)\]\((https?://[^\s)]+)\)")
 URL = re.compile(r"\((https?://[^\s)]+)\)")
+
+
+def ci_exceptions() -> set[str]:
+    if os.environ.get("GITHUB_ACTIONS") != "true":
+        return set()
+    path = Path(__file__).with_name("github-ci-exceptions")
+    return {
+        line
+        for raw_line in path.read_text().splitlines()
+        if (line := raw_line.strip().lower()) and not line.startswith("#")
+    }
+
+
+def is_excepted(url: str, exceptions: set[str]) -> bool:
+    hostname = (urlsplit(url).hostname or "").lower()
+    return any(hostname == item or hostname.endswith(f".{item}") for item in exceptions)
 
 
 def status(url: str) -> tuple[int, str]:
@@ -71,7 +89,13 @@ def main() -> int:
         return 2
 
     failures = 0
+    skipped = 0
+    exceptions = ci_exceptions()
     for url in urls:
+        if is_excepted(url, exceptions):
+            skipped += 1
+            print(f"SKIP {url} (GitHub CI exception)")
+            continue
         code, error = status(url)
         if code == 200:
             print(f"OK   {url}")
@@ -80,7 +104,7 @@ def main() -> int:
             detail = f" ({error})" if error else ""
             print(f"FAIL {url}: HTTP {code}{detail}", file=sys.stderr)
 
-    print(f"Checked {len(urls)} URLs; {failures} failed.")
+    print(f"Checked {len(urls) - skipped} URLs; {skipped} skipped; {failures} failed.")
     return int(failures != 0)
 
 

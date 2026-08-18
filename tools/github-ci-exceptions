@@ -1,0 +1,2 @@
+# Hostnames that cannot be checked reliably from GitHub-hosted runners.
+bgpstuff.net

@@ -2,15 +2,33 @@
 """Check that every marked README entry has a sufficiently large JSON example."""
 
 import json
+import os
 import re
 import subprocess
 import sys
 from pathlib import Path
+from urllib.parse import urlsplit
 
 
 EXAMPLE_LINK = re.compile(
     r"\[[^]]*[Ee]xample[^]]*\]\((https?://[^\s)]+)\)"
 )
+
+
+def ci_exceptions() -> set[str]:
+    if os.environ.get("GITHUB_ACTIONS") != "true":
+        return set()
+    path = Path(__file__).with_name("github-ci-exceptions")
+    return {
+        line
+        for raw_line in path.read_text().splitlines()
+        if (line := raw_line.strip().lower()) and not line.startswith("#")
+    }
+
+
+def is_excepted(url: str, exceptions: set[str]) -> bool:
+    hostname = (urlsplit(url).hostname or "").lower()
+    return any(hostname == item or hostname.endswith(f".{item}") for item in exceptions)
 
 
 def entries(text: str) -> list[tuple[int, str]]:
@@ -77,6 +95,8 @@ def main() -> int:
         return 2
 
     failures = 0
+    skipped = 0
+    exceptions = ci_exceptions()
     for line_number, entry in marked_entries:
         match = EXAMPLE_LINK.search(entry)
         if not match:
@@ -85,6 +105,10 @@ def main() -> int:
             continue
 
         url = match.group(1)
+        if is_excepted(url, exceptions):
+            skipped += 1
+            print(f"SKIP {readme}:{line_number}: {url} (GitHub CI exception)")
+            continue
         response = fetch(url)
         if response.returncode:
             failures += 1
@@ -113,7 +137,10 @@ def main() -> int:
             continue
         print(f"OK   {readme}:{line_number}: {url} ({size} elements)")
 
-    print(f"Checked {len(marked_entries)} entries; {failures} failed.")
+    print(
+        f"Checked {len(marked_entries) - skipped} entries; "
+        f"{skipped} skipped; {failures} failed."
+    )
     return int(failures != 0)
 
 
