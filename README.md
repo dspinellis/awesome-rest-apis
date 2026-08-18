@@ -27,6 +27,8 @@ or with any modern programming language, for example with Python's
 - [Sports](#sports)
 - [Transport](#transport)
 
+<!--ENTRIES-BEGIN-->
+
 ## Bioinformatics
 - [Ensembl](https://rest.ensembl.org/) - Access genomic data for Homo Sapiens and other organisms. Mutations, DNA sequences, Transcripts and Proteins. Useful also to locate known genotype-phenotype associations; [example](https://rest.ensembl.org/vep/human/hgvs/AGT:c.803T%3EC?content-type=application/json)
 - [MyVariant.info](https://myvariant.info/v1/api) - Access genetic variation information for approximately 1 billion DNA loci. Read more [here](https://docs.myvariant.info/en/latest/doc/data.html); [example](http://myvariant.info/v1/query?q=chr3:8762685-8762685)
@@ -74,6 +76,8 @@ or with any modern programming language, for example with Python's
 
 ## Transport
 - [OpenMobilityData](https://transitfeeds.com/feeds) - List of [General Transit Feed Specification](https://en.wikipedia.org/wiki/General_Transit_Feed_Specification) (GTFS) providers.
+
+<!--ENTRIES-END-->
 
 
 ## License
