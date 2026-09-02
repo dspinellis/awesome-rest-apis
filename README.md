@@ -44,6 +44,7 @@ or with any modern programming language, for example with Python's
 
 ## Computer networking
 - [BGP queries](https://bgpstuff.net/) - The internet viewed from the Border Gateway Protocol lens; [example](https://bgpstuff.net/api/v3/route/8.8.8.8).
+- [Domain Info](https://dns.lifestep.io/) - Query DNS records, SPF, DMARC, and verified TLS certificate expiry; [example](https://dns.lifestep.io/domain?name=github.com).
 - [Network client information](https://www.myip.com/api-docs/) - Report the client's IP address and country; [example](https://api.myip.com).
 
 ## Computer software
