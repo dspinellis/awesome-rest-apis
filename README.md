@@ -39,6 +39,7 @@ or with any modern programming language, for example with Python's
 - [SeqBench](https://seqbench.com/mcp) - Molecular/synthetic biology toolkit covering primer design, cloning simulation, CRISPR guide design, sequence analysis, batch processing, and multi-step workflows; [example](https://seqbench.com/api/v1)
 
 ## Business and finance
+- [Cambio Uruguay](https://api.cambio-uruguay.com/api-docs) - Buy and sell exchange rates published by Uruguayan exchange houses and banks, with historical series and branch metadata; [example](https://api.cambio-uruguay.com/).
 - [CoinPaprika](https://api.coinpaprika.com/) - Cryptocurrency market data for 12,000+ cryptocurrencies and 350+ exchanges, including current prices, volume, market cap, and global market statistics; [example](https://api.coinpaprika.com/v1/tickers/btc-bitcoin). No auth, HTTPS, CORS.
 
 ## Computer networking
