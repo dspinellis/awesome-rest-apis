@@ -70,6 +70,7 @@ or with any modern programming language, for example with Python's
 
 ## Sports
 - [World Cup 2026 Tour](https://ay-worldcup2026.zeabur.app/developers) - 2026 World Cup fixtures, local kickoff times, and match share links; [example](https://ay-worldcup2026.zeabur.app/api/public/v1/matches?timezone=UTC).
+- [HostDeFi](https://hostdefi.com) — free token-safety scanner grading tokens A+–F from on-chain checks (mint/freeze authority, liquidity, holder concentration) across Solana + 7 EVM chains. Keyless REST API, hosted MCP, x402 endpoints.
 
 ## Transport
 
