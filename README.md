@@ -39,10 +39,12 @@ or with any modern programming language, for example with Python's
 - [SeqBench](https://seqbench.com/mcp) - Molecular/synthetic biology toolkit covering primer design, cloning simulation, CRISPR guide design, sequence analysis, batch processing, and multi-step workflows; [example](https://seqbench.com/api/v1)
 
 ## Business and finance
+- [Cambio Uruguay](https://api.cambio-uruguay.com/api-docs) - Buy and sell exchange rates published by Uruguayan exchange houses and banks, with historical series and branch metadata; [example](https://api.cambio-uruguay.com/).
 - [CoinPaprika](https://api.coinpaprika.com/) - Cryptocurrency market data for 12,000+ cryptocurrencies and 350+ exchanges, including current prices, volume, market cap, and global market statistics; [example](https://api.coinpaprika.com/v1/tickers/btc-bitcoin). No auth, HTTPS, CORS.
 
 ## Computer networking
 - [BGP queries](https://bgpstuff.net/) - The internet viewed from the Border Gateway Protocol lens; [example](https://bgpstuff.net/api/v3/route/8.8.8.8).
+- [Domain Info](https://dns.lifestep.io/) - Query DNS records, SPF, DMARC, and verified TLS certificate expiry; [example](https://dns.lifestep.io/domain?name=github.com).
 
 ## Computer software
 - [GitHub](https://developer.github.com/v3/) - Metadata on public repositories hosted on GitHub; [example](https://api.github.com/repos/dspinellis/awesome-rest-apis).
@@ -53,6 +55,7 @@ or with any modern programming language, for example with Python's
 - [Vedika](https://vedika.io) - AI-powered Vedic astrology API with 108+ endpoints for birth charts, horoscopes, kundali matching, and natural language astrology queries; [Example](https://api.vedika.io/sandbox/info)
 
 ## General
+- [Bucketlist.nl Dream of the Day](https://bucketlist.nl/samenwerken?lang=en#droom-van-de-dag) - Returns one published travel or life experience idea per day, with image, theme, destination and canonical URL; [example](https://bucketlist.nl/api/droom-van-de-dag?scope=wereld&lang=en). No auth, HTTPS, CORS.
 - [DOI metadata](https://github.com/CrossRef/rest-api-doc) - Search and obtain metadata associated with Digital Object Identifiers; [example](https://api.crossref.org/works/10.1109/TSE.2019.2892149).
 - [DOI resolution](https://www.doi.org/factsheets/DOIProxy.html#rest-api) - Resolve Digital Object Identifiers to their target URL; [example](https://doi.org/api/handles/10.1109/TSE.2019.2892149).
 - [Postali](https://postali.app/api) - Free REST API for postal codes (códigos postales) covering Mexico, Colombia, and Spain (~200k entries from SEPOMEX and GeoNames); [example](https://postali.app/api/v1/mx/cp/06700). No auth, HTTPS, CORS.
