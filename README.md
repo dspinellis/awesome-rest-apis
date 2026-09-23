@@ -43,7 +43,6 @@ or with any modern programming language, for example with Python's
 
 ## Computer networking
 - [BGP queries](https://bgpstuff.net/) - The internet viewed from the Border Gateway Protocol lens; [example](https://bgpstuff.net/api/v3/route/8.8.8.8).
-- [Network client information](https://www.myip.com/api-docs/) - Report the client's IP address and country; [example](https://api.myip.com).
 
 ## Computer software
 - [GitHub](https://developer.github.com/v3/) - Metadata on public repositories hosted on GitHub; [example](https://api.github.com/repos/dspinellis/awesome-rest-apis).
