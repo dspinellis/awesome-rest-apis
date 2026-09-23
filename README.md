@@ -43,6 +43,7 @@ or with any modern programming language, for example with Python's
 
 ## Computer networking
 - [BGP queries](https://bgpstuff.net/) - The internet viewed from the Border Gateway Protocol lens; [example](https://bgpstuff.net/api/v3/route/8.8.8.8).
+- [Domain Info](https://dns.lifestep.io/) - Query DNS records, SPF, DMARC, and verified TLS certificate expiry; [example](https://dns.lifestep.io/domain?name=github.com).
 
 ## Computer software
 - [GitHub](https://developer.github.com/v3/) - Metadata on public repositories hosted on GitHub; [example](https://api.github.com/repos/dspinellis/awesome-rest-apis).
