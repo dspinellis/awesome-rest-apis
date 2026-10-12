@@ -58,6 +58,7 @@ or with any modern programming language, for example with Python's
 - [Bucketlist.nl Dream of the Day](https://bucketlist.nl/samenwerken?lang=en#droom-van-de-dag) - Returns one published travel or life experience idea per day, with image, theme, destination and canonical URL; [example](https://bucketlist.nl/api/droom-van-de-dag?scope=wereld&lang=en). No auth, HTTPS, CORS.
 - [DOI metadata](https://github.com/CrossRef/rest-api-doc) - Search and obtain metadata associated with Digital Object Identifiers; [example](https://api.crossref.org/works/10.1109/TSE.2019.2892149).
 - [DOI resolution](https://www.doi.org/factsheets/DOIProxy.html#rest-api) - Resolve Digital Object Identifiers to their target URL; [example](https://doi.org/api/handles/10.1109/TSE.2019.2892149).
+- [Invokely](https://invokely.ai/docs) - Query official statistics for countries and selected subnational areas; each value includes its unit, period and source citation. Anonymous REST access allows 25 calls per day per IP address; [example](https://invokely.ai/api/v1/indicators?q=population&geography=Spain)
 - [Postali](https://postali.app/api) - Free REST API for postal codes (códigos postales) covering Mexico, Colombia, and Spain (~200k entries from SEPOMEX and GeoNames); [example](https://postali.app/api/v1/mx/cp/06700). No auth, HTTPS, CORS.
 - [Wikidata](https://www.wikidata.org/wiki/Wikidata:Data_access) - Collaboratively edited knowledge base hosted by the Wikimedia Foundation; [example](https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&ids=Q111).
 
