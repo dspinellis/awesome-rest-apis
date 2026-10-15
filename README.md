@@ -63,6 +63,7 @@ or with any modern programming language, for example with Python's
 
 
 ## Medicine
+- [CareJobs.Now open data](https://carejobs.now/data) - Open US healthcare jobs and the hourly pay employers post, by kind of job and employer, as free JSON with no key; [Example: posted pay by kind of job](https://carejobs.now/pay.json)
 
 ## Software Development
 - [JSONPlaceholder](https://jsonplaceholder.typicode.com/) - Fake Online REST API for Testing and Prototyping; [Example: 100 Fake Posts](https://jsonplaceholder.typicode.com/posts)
