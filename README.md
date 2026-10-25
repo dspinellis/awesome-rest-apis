@@ -65,6 +65,8 @@ or with any modern programming language, for example with Python's
 
 ## Medicine
 
+- [FertilityClinics](https://fertilityclinics.fyi/developers) - US fertility and IVF clinics with services, cycle counts and live-birth rates reported to the CDC, searchable by city and service; [example](https://fertilityclinics.fyi/api/v1/listings?limit=3). No auth, HTTPS.
+
 ## Software Development
 - [JSONPlaceholder](https://jsonplaceholder.typicode.com/) - Fake Online REST API for Testing and Prototyping; [Example: 100 Fake Posts](https://jsonplaceholder.typicode.com/posts)
 
