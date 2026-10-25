@@ -43,6 +43,8 @@ or with any modern programming language, for example with Python's
 - [Cambio Uruguay](https://api.cambio-uruguay.com/api-docs) - Buy and sell exchange rates published by Uruguayan exchange houses and banks, with historical series and branch metadata; [example](https://api.cambio-uruguay.com/).
 - [CoinPaprika](https://api.coinpaprika.com/) - Cryptocurrency market data for 12,000+ cryptocurrencies and 350+ exchanges, including current prices, volume, market cap, and global market statistics; [example](https://api.coinpaprika.com/v1/tickers/btc-bitcoin). No auth, HTTPS, CORS.
 
+- [CreditUnions](https://creditunions.fyi/developers) - Federally insured US credit unions from NCUA call report data: charter, field of membership, assets, members and branches, searchable by city and state; [example](https://creditunions.fyi/api/v1/listings?limit=3). No auth, HTTPS.
+
 ## Computer networking
 - [BGP queries](https://bgpstuff.net/) - The internet viewed from the Border Gateway Protocol lens; [example](https://bgpstuff.net/api/v3/route/8.8.8.8).
 - [Domain Info](https://dns.lifestep.io/) - Query DNS records, SPF, DMARC, and verified TLS certificate expiry; [example](https://dns.lifestep.io/domain?name=github.com).
