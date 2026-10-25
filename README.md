@@ -65,6 +65,8 @@ or with any modern programming language, for example with Python's
 
 ## Medicine
 
+- [Eating Disorder Directory](https://eatingdisorder.fyi/developers) - US eating disorder treatment programs from the SAMHSA facility survey: levels of care, ages accepted, insurance and contact facts by state and city; [example](https://eatingdisorder.fyi/api/v1/listings?limit=3). No auth, HTTPS.
+
 ## Software Development
 - [JSONPlaceholder](https://jsonplaceholder.typicode.com/) - Fake Online REST API for Testing and Prototyping; [Example: 100 Fake Posts](https://jsonplaceholder.typicode.com/posts)
 
