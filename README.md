@@ -42,6 +42,7 @@ or with any modern programming language, for example with Python's
 - [aikstockdata](https://aikstockdata.com/en/api) - Korean listed-company closing prices, DART filings and earnings from periodic filings as static JSON files; [example](https://aikstockdata.com/data/public/index.json). No auth, HTTPS.
 - [Cambio Uruguay](https://api.cambio-uruguay.com/api-docs) - Buy and sell exchange rates published by Uruguayan exchange houses and banks, with historical series and branch metadata; [example](https://api.cambio-uruguay.com/).
 - [CoinPaprika](https://api.coinpaprika.com/) - Cryptocurrency market data for 12,000+ cryptocurrencies and 350+ exchanges, including current prices, volume, market cap, and global market statistics; [example](https://api.coinpaprika.com/v1/tickers/btc-bitcoin). No auth, HTTPS, CORS.
+- [Datacircle](https://api.datacircle.dev/v1/openapi.json) - Find the best GTM APIs, who is best for each and every plan; [example](https://api.datacircle.dev/v1/apis). No auth, HTTPS, CORS.
 
 ## Computer networking
 - [BGP queries](https://bgpstuff.net/) - The internet viewed from the Border Gateway Protocol lens; [example](https://bgpstuff.net/api/v3/route/8.8.8.8).
