@@ -53,6 +53,7 @@ or with any modern programming language, for example with Python's
 
 ## Entertainment
 - [MusicBrainz](https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2) - Recorded music database; [example](https://musicbrainz.org/ws/2/release/93c4f215-15ae-34a2-981a-9a5fbd700004?inc=aliases+artist-credits+labels+discids+recordings&fmt=json)
+- [No Stairs Please](https://nostairsplease.com/mcp) - Curated directory and MCP endpoint for small live-music venues across all 50 US states; [example](https://nostairsplease.com/.well-known/mcp/server-card.json)
 - [Vedika](https://vedika.io) - AI-powered Vedic astrology API with 108+ endpoints for birth charts, horoscopes, kundali matching, and natural language astrology queries; [Example](https://api.vedika.io/sandbox/info)
 
 ## General
