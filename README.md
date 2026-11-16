@@ -67,6 +67,7 @@ or with any modern programming language, for example with Python's
 
 ## Software Development
 - [JSONPlaceholder](https://jsonplaceholder.typicode.com/) - Fake Online REST API for Testing and Prototyping; [Example: 100 Fake Posts](https://jsonplaceholder.typicode.com/posts)
+- [openradar](https://openradar.fun/docs) - Open feed of IT vacancies and freelance orders aggregated from boards, RSS and Telegram; [example](https://openradar.fun/api/leads?limit=1).
 
 ## Sports
 - [World Cup 2026 Tour](https://ay-worldcup2026.zeabur.app/developers) - 2026 World Cup fixtures, local kickoff times, and match share links; [example](https://ay-worldcup2026.zeabur.app/api/public/v1/matches?timezone=UTC).
